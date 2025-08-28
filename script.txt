@@ -821,4 +821,4 @@ if barstate.islast and enable_breakthrough_logic
             details := details + (data.is_high ? "H:" : "L:") + str.tostring(data.breakthrough_count) + " "
     
     table.cell(debug_breakthrough, 0, 5, "Детали прорывов", text_color=color.black)
-    table.cell(debug_breakthrough, 1, 5, details == "" ? "Нет данных" : details, text_color=color.black)
+    table.cell(debug_breakthrough, 1, 5, details == "" ? "Нет данных" : details, text_color=color.black)"# ���������� ��� CodeRabbit" 
