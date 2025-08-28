@@ -1,0 +1,2 @@
+# indicator
+indicator for traidingview 
